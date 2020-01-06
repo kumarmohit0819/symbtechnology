@@ -1,1 +1,2 @@
 # symbtechnology
+Dashboard design
