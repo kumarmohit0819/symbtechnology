@@ -1,0 +1,540 @@
+<html>
+
+<head>
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        h4 {
+            text-transform: capitalize;
+        }
+        .price{
+            list-style: none;
+            padding: 0px;
+            font-size: 13px;
+        }
+        .price>li{
+            padding: 5px;
+        }
+        .price>li>span>.fa{
+            font-size: 13px;
+            border: 1px solid #a5a5a5;
+            padding: 4px 5px;
+            border-radius: 20px;
+            color: #a5a5a5;
+        }
+        .more{
+            padding: 4px 16px;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 1px black;
+        }
+        .box{
+            border: 1px solid red;
+            padding:5px 5px;
+        }
+        .profile-btn{
+            min-width: 200px;
+            border-radius: 0px;
+            margin: auto;
+            display: inline-grid;
+        }
+        .products-list {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .product-list-in-box>.item {
+            -webkit-box-shadow: none;
+            box-shadow: none;
+            border-radius: 0;
+            border-bottom: 1px solid #f4f4f4;
+			min-height:57px
+        }
+        .products-list .product-img {
+            float: left;
+        }
+        .products-list .product-img img {
+            width: 50px;
+            height: 50px;
+			
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+            background-color: transparent;
+            -webkit-text-decoration-skip: objects;
+        }
+		.time{
+			line-height: 13px;
+    width: 40px;
+    background: #fff;
+    color: #222;
+    padding: 7px 8px 9px;
+    text-align: center;
+    text-transform: uppercase;
+    -moz-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    -webkit-box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    box-shadow: 1px 1px 1px rgba(0,0,0,.1);
+	    font-weight: 700;
+		margin-right: 8px;
+		}
+		.month
+		{
+		font-size:9px
+		}
+		.day
+		 {
+		 font-size:9px
+		 }
+		 .date
+		 {
+		 font-size:14px
+		 }
+		
+		
+    </style>
+	<style>
+	.img_red
+		{
+		    border-radius: 20px;
+		}
+	</style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h4>statue of liberty(USA)</h4>
+                        </div>
+                        <div class=""></div>
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12">
+                            <p>The Statue of Liberty is a colossal neoclassical sculpture on Liberty Island in New York
+                                Harbor in New York, in the United States. The copper statue, a gift from the people of
+                                France to the people of the United States, was designed by French sculptor Frédéric
+                                Auguste Bartholdi and its metal framework was built by Gustave Eiffel. The statue was
+                                dedicated on October 28, 1886.</p>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 text-center">
+                            <input type="button" value="More" class="btn btn-success profile-btn"/>
+                            <a class="profile-btn" style="padding:10px">Profile</a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                            <img src="statue.jpg" alt="statue.jpg" class="img-fluid" />
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
+                            <h4>Ticket & Tours</h4>
+                            <ul class="price">
+                                <li>
+                                    <span><i class="fa fa-usd"></i> NYC Statue of Liberty Cruise</span><span>$17 and up</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa fa-map-marker"></i>Statue of Liberty & Ellis Island</span><span>$17 and up</span>
+                                </li>
+                                <li>
+                                    <span><i class="fa fa-phone"></i>Statue of Liberty Pedestal Express</span><span>$17 and up</span>
+                                </li>
+                                <li>
+                                    <span class="more">More tickets & Tour</span>
+                                </li>
+                            </ul>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 box">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                            <h4>Write something</h4>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <h6>Write here something only 2 lines</h6>
+                            <p>paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written</p>
+                            <a class="btn btn-success profile-btn">Read More</a>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                            <h6>Write here something only 2 lines</h6>
+                            <p>paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written</p>
+                            <a class="btn btn-success profile-btn">Read More</a>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                            <h6>Write here something only 2 lines</h6>
+                            <p>paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written paragraph content to be written</p>
+                            <a class="btn btn-success profile-btn bg-success text-seccess">Read More</a>
+                        </div>
+                    </div>
+                </div>
+				
+				
+				
+                <div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 co-xs-12 col-sm-12 box">
+						<div class="row">
+						 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                           
+							<h4 class="pull-left">Stundenanfragen</h4>
+							<a href="javascript:void(0)" class="pull-right" style="color: red;">Stundenanfragen<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+							</div>
+							</div>
+                            <ul class="products-list product-list-in-box">
+                                <li class="item">
+                                    <div class="product-img time">
+                                      <!-- <img src="iCal.png" alt="Product Image"> -->
+									  <span class="month">jan</span>
+									  <span class="date">12</span>
+									  <span class="day">Mon</span>
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title"> Achaal
+                                      <span class="label label-warning pull-right">$1800</span></a>
+                                      <span class="product-description">
+                                      mochte mit peter um 12:00 Uhr eine UberLandfahrt machen
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img time">
+                                      <!-- <img src="iCal.png" alt="Product Image"> -->
+									  <span class="month">jul</span>
+									  <span class="date">27</span>
+									  <span class="day">fri</span>
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Peter
+                                      <span class="label label-info pull-right">$700</span></a>
+                                      <span class="product-description">
+                                       mochte mit slike um 11:00 Uhr basis eine machen
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                    <div class="product-img time">
+                                      <!-- <img src="iCal.png" alt="Product Image"> -->
+									  <span class="month">mar</span>
+									  <span class="date">10</span>
+									  <span class="day">Mon</span>
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">  Xbox<span class="label label-danger pull-right">$350</span></a>
+                                      <span class="product-description">
+                                       One Console Bundle with Halo Master Chief Collection.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img time">
+                                      <!-- <img src="iCal.png" alt="Product Image"> -->
+									  <span class="month">feb</span>
+									  <span class="date">25</span>
+									  <span class="day">wed</span>
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">PlayStation 4
+                                      <span class="label label-success pull-right">$399</span></a>
+                                      <span class="product-description">
+                                      PlayStation 4 500GB Console (PS4)
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                             </ul>
+                        </div>
+						
+						
+                        <div class="col-lg-6 col-md-6 co-xs-12 col-sm-12 box">
+						<div class="row">
+						 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                            <h4 class="pull-left"> Transportation in New York City</h4>
+								<a href="javascript:void(0)" class="pull-right" style=" color: red;">City<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        </div>
+						 </div>
+                            <ul class="products-list product-list-in-box">
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="images.png" alt=" Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title"> New York City Subway
+                                      <span class="label label-warning pull-right">$18000</span></a>
+                                      <span class="product-description">
+                                    we can help you achieve positive &nbsp;impact".
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="images.png" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Bus
+                                      <span class="label label-info pull-right">$700</span></a>
+                                      <span class="product-description">
+                                      The New York Metropolitan Transport Authority (MTA)&nbsp; operates.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="images.png" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Taxi <span class="label label-danger pull-right">$350</span></a>
+                                      <span class="product-description">
+                                     The iconic yellow taxi is certainly a popular way .
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="images.png" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Rail
+                                      <span class="label label-success pull-right">$329</span></a>
+                                      <span class="product-description">
+                                      there are a number of passenger railway lines operating around New York city.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                             </ul>
+                        </div>
+                    </div>
+
+                </div>
+				
+				<div class="container">
+				 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 " style="height:8px;">
+				</div> 
+				</div>
+
+				
+				<div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 co-xs-12 col-sm-12 box" style="max-width: 49.5%;">
+						<div class="row">
+						 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                            <h4 class="pull-left">Kalender</h4>
+								<a href="javascript:void(0)" class="pull-right" style="color: red;">Year<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        </div>
+						</div>
+                            <ul class="products-list product-list-in-box">
+                                <li class="item">
+                                   <div class="product-img time">
+                                      <!-- <img src="iCal.png" alt="Product Image"> -->
+									  <span class="month">jan</span>
+									  <span class="date">12</span>
+									  <span class="day">Mon</span>
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Road Transport
+                                      <span class="label label-warning pull-right">$1480</span></a>
+                                      <span class="product-description">
+                                      Transport is responsible for regulation of all transportation in South Africa.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                  <div class="product-img time">
+                                      <!-- <img src="iCal.png" alt="Product Image"> -->
+									  <span class="month">dec</span>
+									  <span class="date">15</span>
+									  <span class="day">sat</span>
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Roads
+                                      <span class="label label-info pull-right">$790</span></a>
+                                      <span class="product-description">
+                                      The national speed limit is 60 km/h in residential areas.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img time">
+                                      <!-- <img src="iCal.png" alt="Product Image"> -->
+									  <span class="month">mar</span>
+									  <span class="date">17</span>
+									  <span class="day">tue</span>
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Airports <span class="label label-danger pull-right">$320</span></a>
+                                      <span class="product-description">
+                                     International Airports in four cities : Johannesburg, Cape Town, Durban, and Nelspruit
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img time">
+                                      <!-- <img src="iCal.png" alt="Product Image"> -->
+									  <span class="month">jun</span>
+									  <span class="date">22</span>
+									  <span class="day">Sun</span>
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Pipelines
+                                      <span class="label label-success pull-right">$399</span></a>
+                                      <span class="product-description">
+                                      There are 931 km of crude oil pipeline transport
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                             </ul>
+                        </div>
+
+						
+                        <div class="col-lg-6 col-md-6 co-xs-12 col-sm-12 box" style="max-width: 49.5%;margin-left: 1%;">
+						
+						<div class="row">
+						 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                            <h4 class="pull-left">Transport in Australia</h4>
+								<a href="javascript:void(0)" class="pull-right" style=" color: red;">Transport<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        </div>
+						</div>
+                            <ul class="products-list product-list-in-box" >
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="download.png" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Roads
+                                      <span class="label label-warning pull-right">$2800</span></a>
+                                      <span class="product-description">
+                                      There is a heavy reliance on road transport.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="download.png" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Commuter rail
+                                      <span class="label label-info pull-right">$900</span></a>
+                                      <span class="product-description">
+                                      Sydney, Melbourne, Brisbane, Perth and Adelaide have extensive commuter rail networks.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="download.png" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Rapid transit <span class="label label-danger pull-right">$650</span></a>
+                                      <span class="product-description">
+                                      Sydney is the only city in Australia with a rapid transit system.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="download.png" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Cane railways
+                                      <span class="label label-success pull-right">$499</span></a>
+                                      <span class="product-description">
+                                      In Queensland 19 sugar mills are serviced by ~3,000km.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                             </ul>
+                        </div>
+                    </div>
+
+                </div>
+				<div class="container">
+				 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12 " style="height:8px;">
+				</div> 
+				</div>
+				<!-- -----5th div------ -->
+				<div class="col-lg-12 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 co-xs-12 col-sm-12 box">
+						<div class="row">
+						 <div class="col-lg-12 col-md-12 col-xs-12 col-sm-12">
+                            <h4 class="pull-left">Transportation of england</h4>
+								<a href="javascript:void(0)" class="pull-right" style="color: red;">City<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+                        </div>
+						</div>
+                            <ul class="products-list product-list-in-box">
+                              
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="download.png" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Rail
+                                      <span class="label label-info pull-right">$500</span></a>
+                                      <span class="product-description">
+                                      26" Mongoose Dolomite Men's 7-speed, Navy Blue.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="images.png" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Taxis and Car <span class="label label-danger pull-right">$410</span></a>
+                                      <span class="product-description">
+                                      Taxis and minicabs are extremely common in England.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                                <li class="item">
+                                   <div class="product-img">
+                                      <img src="search.jpg" alt="Product Image" class="img_red">
+                                   </div>
+                                   <div class="product-info">
+                                      <a href="javascript:void(0)" class="product-title">Trains and Buses
+                                      <span class="label label-success pull-right">$557</span></a>
+                                      <span class="product-description">
+                                     Inner-city buses are the most common and inexpensive way to travel to England’s major destinations.
+                                      </span>
+                                   </div>
+                                </li>
+                                <!-- /.item -->
+                             </ul>
+                        </div>
+                    </div>
+
+                </div>
+				
+               
+
+            </div>
+        </div>
+    </div><br/>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
